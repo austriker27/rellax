@@ -296,15 +296,15 @@
           <div class="container">
             <div class="row">
               <div class="col-md-offset-1 col-md-6">
-                <h4>SERIOUSLY, WHY?!</h4>
-                <p>Come on, how boring is the internet without excessive javascript? We made this library since too many github repos are abandoned (RIP skrollr) or feature creepy. You got some beef or caught us slippin on unit tests, send rants and 10mb gifs to <a href="mailto:moe@dixonandmoe.">moe@dixonandmoe.com</a></p>
+                <h4>michael lindahl</h4>
+                <p> michael is our backend specialist and php evangalist. he has experience with blah, blah and blah. fun fact : michael first developed a profitable app that was live in the itunes store in his junior year of high school. <a href="mailto:moe@dixonandmoe.">moe@dixonandmoe.com</a></p>
               </div>
             </div>
 
             <div class="row" style="margin-top: 140px">
               <div class="col-md-offset-5 col-md-6">
-                <h4>BUT ACTUALLY</h4>
-                <p>We've benefitted so much from open source projects that we're actively trying to give back. As designers, we're starting by releasing our own quirky js code.</p>
+                <h4>david lindahl</h4>
+                <p>david is our design and front-end specialist. his background includes photography, social media branding and dabbling in web design for years. now he is chasing those dreams as a front-end web developer. </p>
               </div>
             </div>
           </div>
@@ -329,8 +329,18 @@
 
 
     <!-- javascript -->
-    <script type="text/javascript" src="js/app.js"></script>
     <script type="text/javascript" src="js/rellax.js"></script>
+    <!-- <script type="text/javascript" src="js/app.js"></script> -->
+    <script>
+      var rellax = new Rellax('.rellax', {
+        // center: true
+        callback: function(position) {
+            // callback every position change
+            console.log(position);
+        }
+      });
+
+    </script>
 
 
   </body>
