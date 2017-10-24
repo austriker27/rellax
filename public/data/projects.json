@@ -1,19 +1,19 @@
 [{
-    "title": "Fraction Calculator",
+    "title": "fraction calculator | ios app",
     "url": "http://#.com",
     "img": "../imgs/fractionCalc-mockup.jpg",
-    "projectDescription": "Here are some words about the project and how we made it awesome."
+    "projectDescription": "here are some words about the project and how we made it awesome."
   },
   {
-    "title": "Moving Forward Leadership | Website",
+    "title": "moving forward leadership | website",
     "url":"http://#.org",
     "img": "../imgs/mfl-mockup.jpg",
-    "projectDescription": "Here are some words about the project and how we made it awesome."
+    "projectDescription": "here are some words about the project and how we made it awesome."
   },
   {
-    "title": "Posy Rae | Website",
+    "title": "posy rae | website",
     "url":"http://#.org",
     "img": "../imgs/posyrae-mockup.jpg",
-    "projectDescription": "Here are some words about the project and how we made it awesome."
+    "projectDescription": "here are some words about the project and how we made it awesome."
   }
 ]
