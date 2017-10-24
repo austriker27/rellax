@@ -26,16 +26,18 @@
     <script>window.html5 || document.write('<script src="js/vendor/html5shiv.js"><\/script>')</script>
     <![endif]-->
 
+    <link rel="shortcut icon" href="imgs/favicon.png">
 
     <!-- handlebars template below for all our projects   -->
-    <script id="subredditName-template" type="text/x-handlebars-template">
+    <script id="projects-template" type="text/x-handlebars-template">
 
         {{#each keys}}
-            <li class="clearfix subredditNameLi" id="{{makeAllCaps this}}">
-              <p class="title is-4 subredditName" style="cursor: pointer" id="{{this}}">{{this}}</p>
-                <!-- <span class="subtitle is-4">Click for Data on {{this}} </span> -->
-                <br><a target="_blank" href="http://reddit.com/r/{{this}}">Link to Subreddit: {{this}}</a>
-            </li>
+          <article class= "project" data-category= "{{ project }}">
+           <img src=" {{ img }}" alt="">
+           <h3 class = "title">{{ title }}</h3>
+           <a href="{{ url }}"> {{ title }} </a>
+           <p>{{ projectDescription }}</p>
+         </article>
         {{/each}}
 
   </head>
