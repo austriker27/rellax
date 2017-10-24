@@ -1,0 +1,28 @@
+
+/*----------------------------------
+  Background Grid
+------------------------------------*/
+
+
+.grid {
+  position: fixed;
+  width: 100%;
+}
+.grid-line {
+  height: 100vh;
+  border-left: 1px solid #ccc;
+}
+
+
+
+
+.fixed-top {
+  position: absolute;
+  width: 600px;
+  height: 600px;
+  background: #00F1C9;
+  border-radius: 12px;
+  z-index: -1;
+  margin-top: -220px;
+  margin-left: 100px;
+}
