@@ -2,7 +2,7 @@
 
 
 
-(function(module) {
+// (function(module) {
   function Project (projects) {
     this.title = projects.title;
     this.url = projects.url;
@@ -26,4 +26,4 @@
   projects.all.forEach(function(project){
     $('#projects-anchor').append(project.toHtml());
   });
-};
+// };
