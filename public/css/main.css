@@ -1,14 +1,27 @@
 html, body {
   margin: 0;
   padding: 0;
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: 'spartanLeagueBold', sans-serif;
   text-rendering: optimizeLegibility;
   color: #222;
   overflow-x: hidden;
 }
 
 @font-face {
-  font-family: 
+  font-family: 'spartanLeagueBold';
+  src: url('assets/fonts/leaguespartan-bold.eot');
+  src: url('assets/fonts/leaguespartan-bold.otf');
+  src: url('assets/fonts/leaguespartan-bold.ttf');
+  src:
+	local('LeagueSpartan Bold'),
+	local('LeagueSpartan-Bold'),
+	url('fonts/lovely_font.otf')
+	format('opentype');
+src:
+	local('LeagueSpartan Bold'),
+	local('LeagueSpartan-Bold'),
+	url('fonts/lovely_font.ttf')
+	format('truetype');
 }
 
 
