@@ -29,9 +29,11 @@ h4 {
   font-size: 22px;
   margin-bottom: 28px;
 }
+
 p {
   font-size: 22px;
 }
+
 a,
 a:hover,
 a:active,
@@ -115,10 +117,10 @@ main,
 .section {
   position: relative;
 }
+
 section.backgroundbio {
   margin-top: 100px;
 }
-
 
 .absolute {
   position: absolute;
@@ -126,9 +128,11 @@ section.backgroundbio {
   height: auto;
   margin-top: 100px;
 }
+
 .absolute.above {
-  z-index: 2;
+  z-index: 1;
 }
+
 .absolute h2 {
   font-size: 140px;
   font-weight: 900;
@@ -136,6 +140,7 @@ section.backgroundbio {
   color: #F0F0F0;
   z-index: -1;
 }
+
 .lg-green {
   width: 160px;
   height: 160px;
@@ -144,6 +149,7 @@ section.backgroundbio {
   margin-left: -80px;
   margin-top: 200px;
 }
+
 .sm-green {
   width: 60px;
   height: 60px;
@@ -152,6 +158,7 @@ section.backgroundbio {
   margin-left: -30px;
   margin-top: 400px;
 }
+
 .sm-purple {
   width: 60px;
   height: 60px;
@@ -160,6 +167,7 @@ section.backgroundbio {
   margin-left: -30px;
   margin-top: 400px;
 }
+
 .xs-green {
   width: 60px;
   height: 60px;
@@ -168,6 +176,7 @@ section.backgroundbio {
   margin-left: -30px;
   margin-top: 400px;
 }
+
 .md-green {
   width: 120px;
   height: 120px;
@@ -176,6 +185,7 @@ section.backgroundbio {
   margin-left: -60px;
   margin-top: 10px;
 }
+
 .lg-purple {
   width: 80px;
   height: 80px;
@@ -190,6 +200,11 @@ section.backgroundbio {
   font-size: 48px;
   font-weight: 600;
   color: #5000F1;
+  z-index: 10;
+}
+
+.copy {
+  z-index: 10;
 }
 
 .temp {
@@ -229,6 +244,7 @@ section.backgroundbio {
   margin-left: 68px;
   margin-top: 600px;
 }
+
 .md-twitter {
   width: 120px;
   height: 120px;
@@ -237,6 +253,7 @@ section.backgroundbio {
   margin-left: -60px;
   margin-top: 60px;
 }
+
 .md-dixonandmoe {
   width: 120px;
   height: 120px;
@@ -245,6 +262,7 @@ section.backgroundbio {
   margin-left: -60px;
   margin-top: 760px;
 }
+
 .bt-green {
   width: 60px;
   height: 60px;
@@ -253,6 +271,7 @@ section.backgroundbio {
   margin-left: -30px;
   margin-top: 700px;
 }
+
 .bt-purple {
   width: 80px;
   height: 80px;
@@ -281,16 +300,6 @@ a.dam:hover,
 a.dam:active,
 a.dam:visited {
   color: #222;
-}
-
-span.purple {
-  color: #5000F1;
-}
-span.green {
-  color: #A0F100;
-}
-span.white {
-  color: #fff;
 }
 
 
