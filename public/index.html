@@ -3,22 +3,46 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Vanilla Javascript Parallax Library - Rellax.js</title>
+    <title>lindahl studios LLC - website and app design and development</title>
     <meta name="description" content="">
-    <meta name="viewport" content="width=device-width">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:600,700,900' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=Work+Sans" rel="stylesheet">
 
-    <!-- Booooooootstrap -->
+    <!-- Sigh, yes we used bootstrap... -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
 
     <!-- Styles -->
     <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link rel="stylesheet" type="text/css" href="css/backgroundGrid.css">
+    <link rel="stylesheet" type="text/css" href="css/navbar.css">
+
+    <!-- handlebarsJS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.11/handlebars.min.js" charset="utf-8"></script>
+
+    <!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
     <!--[if lt IE 9]>
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <script>window.html5 || document.write('<script src="js/vendor/html5shiv.js"><\/script>')</script>
     <![endif]-->
+
+    <!-- TODO:  add favicon -->
+    <!-- <link rel="shortcut icon" href="imgs/favicon.png"> -->
+
+    <!-- handlebars template below for all our projects   -->
+    <script id="projects-template" type="text/x-handlebars-template">
+
+      {{#each project}}
+        <article class="project" data-category="{{ ./project }}">
+           <img src=" {{ ./img }}" alt="Image of {{ ./title }} project.">
+           <h3 class="title">{{ ./title }}</h3>
+           <p><a href="{{ ./url }}"> {{ ./url }} </a></p>
+           <p>{{ ./projectDescription }}</p>
+         </article>
+      {{/each}}
+    </script>
   </head>
 
   <body>
@@ -45,17 +69,33 @@
     </div>
 
     <div class="fixed-top rellax" data-rellax-speed="-2"
-      style="transform: rotate(45deg);"
-    >
-    </div>
+      style="transform: rotate(45deg);"></div>
 
     <main class="main">
       <header>
         <div class="container">
+          <div class="row header-wrapper">
+            <!-- <a href="#"><img src="assets/imgs/lindahlstudios-logo.png" alt="lindahl studios logo" width="50px" height="50px"></a> -->
+            <nav class="main-nav">
+                <ul class="row main-nav-list">
+                  <li class="col-md-2">
+                    <a href="#main" class="js-btn1 scroll">home</a>
+                  </li>
+                  <li class="col-md-2">
+                    <a href="#projects-anchor" class="js-btn2 scroll">projects</a>
+                  </li>
+                  <li class="col-md-2">
+                    <a href="#team" class="js-btn3 scroll">the team</a>
+                  </li>
+                </ul>
+
+            </nav>
+
+          </div>
           <div class="row">
             <div class="col-md-offset-1 col-md-11">
-              <a href="http://dixonandmoe.com/">
-                <h2>BY DIXON & MOE <span>➔</span></h2>
+              <a href="#">
+                <h2>come on in!<span>➔</span></h2>
               </a>
               <div class="white-block"></div>
             </div>
@@ -63,35 +103,35 @@
           <div class="title">
             <div class="row">
               <div class="col-md-offset-1 col-md-6">
-                <h1>RELLAX<span>JS</span></h1>
+                <h1>we build awesome digital things </h1>
               </div>
               <div class="col-md-4 text-right">
-                <a href="https://github.com/dixonandmoe/rellax">GITHUB</a>
+                <img src="assets/imgs/lindahlstudios-logo.svg" alt="lindahl studios logo" width="200px" height="200px">
               </div>
             </div>
           </div>
           <div class="subtitle">
             <div class="row">
               <div class="col-md-offset-1 col-md-2">
-                <h3>Light (871b gz)</h3>
+                <h3>ios apps</h3>
               </div>
               <div class="col-md-2">
-                <h3>Vanilla Javascript</h3>
+                <h3>modern websites</h3>
               </div>
               <div class="col-md-2">
-                <h3>Parallax Library</h3>
+                <h3>digital brands</h3>
               </div>
           </div>
         </div>
       </header>
 
 
-      <section class="section san-francisco">
+      <section class="section backgroundbio">
         <div class="absolute">
           <div class="container">
             <div class="row">
               <div class="col-md-offset-1 col-md-11">
-                <h2 class="rellax" data-rellax-speed="-3">San Francisco<br>California</h2>
+                <h2 class="rellax" data-rellax-speed="-3">design &amp; <br>development</h2>
               </div>
             </div>
           </div>
@@ -146,15 +186,15 @@
 
           <div class="row">
             <div class="col-md-offset-1 col-md-5">
-              <div class="date">
-                Incorporated—<br>
-                1850<br><br>
-                37°47′N 122°25′W
+              <div class="bio-section">
+                we are a two man design &amp; development shop <br>
+                that builds clean, modern websites and ios apps.<br><br>
+                check out our recent projects!
               </div>
             </div>
             <div class="col-md-offset-1 col-md-4">
               <div class="temp">
-                68°
+                d&amp;d
               </div>
             </div>
           </div>
@@ -175,21 +215,18 @@
 
               <div class="row">
                 <div class="col-md-12 text-center">
-                  <h4>JAVASCRIPT (ACCEPTS ANY CLASS NAME)</h4>
+                  <h4>our projects</h4>
                 </div>
               </div>
 
               <div class="row">
                 <div class="col-md-offset-2 col-md-8">
-                  <div class="text-editor">
-                    <code>
-                      <span class="purple">var</span> rellax = <span class="green">new</span> <span class="white">Rellax</span>('.rellax');
-                    </code>
+                  <div id="projects-anchor">
                   </div>
                 </div>
               </div>
 
-
+<!--
               <div class="row">
                 <div class="col-md-12 text-center" style="margin-top:80px">
                   <h4>BASIC MARKUP (DEFAULT SPEED: -2)</h4>
@@ -225,7 +262,7 @@
                     </code>
                   </div>
                 </div>
-              </div>
+              </div> -->
 
             </div>
           </div>
@@ -273,19 +310,22 @@
           </div>
         </div>
 
+        <div id="team"></div>
         <div class="copy" style="margin-top: 200px;margin-bottom: 500px">
           <div class="container">
             <div class="row">
               <div class="col-md-offset-1 col-md-6">
-                <h4>SERIOUSLY, WHY?!</h4>
-                <p>Come on, how boring is the internet without excessive javascript? We made this library since too many github repos are abandoned (RIP skrollr) or feature creepy. You got some beef or caught us slippin on unit tests, send rants and 10mb gifs to <a href="mailto:moe@dixonandmoe.">moe@dixonandmoe.com</a></p>
+                <h4>michael</h4>
+                <p> michael is our backend specialist and php evangalist. fun fact : michael first developed a profitable app that was live in the itunes store in his junior year of high school.</p>
+                <p>skills: php, servers, html/css, javascript, swift, c++</p>
               </div>
             </div>
 
             <div class="row" style="margin-top: 140px">
               <div class="col-md-offset-5 col-md-6">
-                <h4>BUT ACTUALLY</h4>
-                <p>We've benefitted so much from open source projects that we're actively trying to give back. As designers, we're starting by releasing our own quirky js code.</p>
+                <h4>david</h4>
+                <p>david is our design and front-end specialist. his background includes photography, social media branding and dabbling in web design for years. fun fact: he has never had chicken pox. </p>
+                <p>skills: javascript, jquery, handlebarsjs, html/css, node.js, front-end design, photography, branding</p>
               </div>
             </div>
           </div>
@@ -295,13 +335,13 @@
         <div class="container">
           <div class="row">
             <div class="col-md-offset-1 col-md-3">
-              <a class="dam" href="http://dixonandmoe.com/">Dixon &amp; Moe</a>
+              <a class="dam" href="#"> &copy; 2017 lindahl studios</a>
             </div>
             <div class="col-md-offset-3 col-md-2">
-              <a href="https://www.facebook.com/sharer/sharer.php?u=http://dixonandmoe.com/rellax/">Share <span>➔</span></a>
+              <a href="https://www.dreamhost.com"> hosted by dreamhost <span>➔</span></a>
             </div>
             <div class="col-md-offset-0 col-md-2">
-              <a href="https://twitter.com/share?url=http://dixonandmoe.com/rellax/">Tweet <span>➔</span></a>
+              <a href="https://#.com">link <span>➔</span></a>
             </div>
           </div>
       </section>
@@ -310,17 +350,9 @@
 
 
     <!-- javascript -->
-    <script type="text/javascript" src="rellax.js"></script>
-    <script>
-    	var rellax = new Rellax('.rellax', {
-        // center: true
-        callback: function(position) {
-            // callback every position change
-            console.log(position);
-        }
-      });
-    </script>
-
+    <script type="text/javascript" src="js/rellax.js"></script>
+    <script type="text/javascript" src="js/app.js"></script>
+    <script type="text/javascript" src="js/projectsModel.js"></script>
 
 
   </body>
