@@ -10,9 +10,6 @@
   display: flex;
 }
 
-.row a {
-  text-decoration: none;
-}
 .main-nav-list a {
   transition: color .15s ease-out;
 }
