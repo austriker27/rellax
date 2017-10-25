@@ -1,0 +1,31 @@
+.header-wrapper {
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  z-index: 1500;
+  padding: 15px 0;
+  transition: opacity 1.8s linear;
+}
+
+.row {
+  display: flex;
+}
+
+.row a {
+  text-decoration: none;
+}
+.main-nav-list a {
+  transition: color .15s ease-out;
+}
+
+.main-nav-list li a {
+  color: black;
+}
+
+.main-nav-list {
+  align-items: center;
+}
+
+.main-nav ul {
+  list-style: none;
+}
