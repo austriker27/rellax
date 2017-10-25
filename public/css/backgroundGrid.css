@@ -26,3 +26,7 @@
   margin-top: -220px;
   margin-left: 100px;
 }
+
+body {
+  background-image: linear-gradient(180deg, #2af598 0%, #009efd 100%);
+}
