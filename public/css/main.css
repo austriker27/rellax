@@ -115,7 +115,7 @@ main,
 .section {
   position: relative;
 }
-section.san-francisco {
+section.backgroundbio {
   margin-top: 100px;
 }
 
@@ -185,7 +185,7 @@ section.san-francisco {
   margin-top: 60px;
 }
 
-.date {
+.bio-section {
   margin-top: 400px;
   font-size: 48px;
   font-weight: 600;
