@@ -6,21 +6,21 @@ var $newHTML = $($compiledTemplate({
   project: [
     {
       title: 'fraction calculator | ios app',
-      url: `http://#.com`,
-      // img: `../imgs/fractionCalc-mockup.jpg`,
-      projectDescription: 'here are some words about the project and how we made it awesome.'
+      url: `https://itunes.apple.com/us/app/fraction-calculator-pro/id398107543`,
+      img: `assets/imgs/mockup.png`,
+      projectDescription: 'this app was the highest rated fraction calculator on the app store for nearly ten years. '
     },
     {
       title: 'posy rae | website',
-      url: `http://#.com`,
-      // img: `../imgs/fractionCalc-mockup.jpg`,
-      projectDescription: 'here are some words about the project and how we made it awesome.'
+      url: `http://posyrae.com`,
+      img: `assets/imgs/mockup.png`,
+      projectDescription: `we assisted with a website redesign and e-commerce build out for posy rae's amazing paper floral arrangements.`
     },
     {
       title: 'moving forward leadership | website',
-      url: `http://#.com`,
-      // img: `../imgs/fractionCalc-mockup.jpg`,
-      projectDescription: 'here are some words about the project and how we made it awesome.'
+      url: `http://movingforwardleadership.com`,
+      img: `assets/imgs/mockup.png`,
+      projectDescription: `for scott of the moving forward leadership blog we designed and developed a new website adding functionality to store podcasts, show notes and articles he wrote.`
     }
   ]
 }));
