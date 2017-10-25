@@ -9,6 +9,18 @@ var $newHTML = $($compiledTemplate({
       url: `http://#.com`,
       // img: `../imgs/fractionCalc-mockup.jpg`,
       projectDescription: 'here are some words about the project and how we made it awesome.'
+    },
+    {
+      title: 'posy rae | website',
+      url: `http://#.com`,
+      // img: `../imgs/fractionCalc-mockup.jpg`,
+      projectDescription: 'here are some words about the project and how we made it awesome.'
+    },
+    {
+      title: 'moving forward leadership | website',
+      url: `http://#.com`,
+      // img: `../imgs/fractionCalc-mockup.jpg`,
+      projectDescription: 'here are some words about the project and how we made it awesome.'
     }
   ]
 }));
