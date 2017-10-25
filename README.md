@@ -1,6 +1,6 @@
 # RELLAX
 
-Rellax is a buttery smooth, super lightweight (1021bytes gzipped), vanilla javascript parallax library. **Update:** Rellax now works on mobile (v1.0.0). 
+Rellax is a buttery smooth, super lightweight (1021bytes gzipped), vanilla javascript parallax library. **Upbio-section:** Rellax now works on mobile (v1.0.0). 
 
 * [Demo Website](https://dixonandmoe.com/rellax/)
 
