@@ -33,14 +33,14 @@
     <!-- handlebars template below for all our projects   -->
     <script id="projects-template" type="text/x-handlebars-template">
 
-        <!-- {{#each keys}} -->
-          <article class= "project" data-category= "{{ project }}">
-           <img src=" {{ img }}" alt="Image of {{ title }} project.">
-           <h3 class = "title">{{ title }}</h3>
-           <a href="{{ url }}"> {{ title }} </a>
-           <p>{{ projectDescription }}</p>
+      {{#each project}}
+        <article class= "project" data-category= "{{ ./project }}">
+           <img src=" {{ ./img }}" alt="Image of {{ ./title }} project.">
+           <h3 class = "title">{{ ./title }}</h3>
+           <a href="{{ ./url }}"> {{ ./title }} </a>
+           <p>{{ ./projectDescription }}</p>
          </article>
-        <!-- {{/each}} -->
+      {{/each}}
     </script>
   </head>
 
