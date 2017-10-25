@@ -185,16 +185,13 @@ section.san-francisco {
   margin-top: 60px;
 }
 
-
-
-
-
 .date {
   margin-top: 400px;
   font-size: 48px;
   font-weight: 600;
   color: #5000F1;
 }
+
 .temp {
   margin-top: 200px;
   font-size: 280px;
@@ -203,20 +200,27 @@ section.san-francisco {
   color: #5000F1;
 }
 
-
-
-
-
-
-
 .project {
   background: #222;
   padding: 60px 50px;
   border-radius: 12px;
   margin-left: 15px;
+  margin-bottom: 15px;
+  transition: all 600ms cubic-bezier(0.68, -0.1, 0.265, 1.55);
+  line-height: 1.5em;
+  color: white;
 }
 
-
+.project:hover {
+  margin-top: 12px;
+  margin-bottom: 12px;
+  margin-right: -80px;
+  margin-left: -80px;
+  /*padding: 20px 90px;*/
+  background: white;
+  color: #222;
+  border: thin #222 solid;
+}
 
 .md-facebook {
   width: 60px;

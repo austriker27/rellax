@@ -15,6 +15,7 @@
     <!-- Styles -->
     <link rel="stylesheet" type="text/css" href="css/main.css">
     <link rel="stylesheet" type="text/css" href="css/backgroundGrid.css">
+    <link rel="stylesheet" type="text/css" href="css/navbar.css">
 
     <!-- handlebarsJS -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.11/handlebars.min.js" charset="utf-8"></script>
@@ -34,10 +35,10 @@
     <script id="projects-template" type="text/x-handlebars-template">
 
       {{#each project}}
-        <article class= "project" data-category= "{{ ./project }}">
+        <article class="project" data-category="{{ ./project }}">
            <img src=" {{ ./img }}" alt="Image of {{ ./title }} project.">
-           <h3 class = "title">{{ ./title }}</h3>
-           <a href="{{ ./url }}"> {{ ./title }} </a>
+           <h3 class="title">{{ ./title }}</h3>
+           <a href="{{ ./url }}"> {{ ./url }} </a>
            <p>{{ ./projectDescription }}</p>
          </article>
       {{/each}}
@@ -68,9 +69,7 @@
     </div>
 
     <div class="fixed-top rellax" data-rellax-speed="-2"
-      style="transform: rotate(45deg);"
-    >
-    </div>
+      style="transform: rotate(45deg);"></div>
 
     <main class="main">
       <header>
