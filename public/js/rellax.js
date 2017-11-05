@@ -1,4 +1,3 @@
-
 // ------------------------------------------
 // Rellax.js - v1.0.0
 // Buttery smooth parallax library
@@ -115,7 +114,7 @@
       });
 
       // Start the loop
-      upbio-section();
+      update();
 
       // The loop does nothing if the scrollPosition did not change
       // so call animate to make sure every element has their transforms
@@ -152,7 +151,7 @@
         speed = clamp(dataSpeed || self.options.speed, -5, 5);
       }
 
-      var base = upbio-sectionPosition(percentage, speed);
+      var base = updatePosition(percentage, speed);
 
       // ~~Store non-translate3d transforms~~
       // Store inline styles and extract transforms
@@ -212,20 +211,20 @@
     // Ahh a pure function, gets new transform value
     // based on scrollPostion and speed
     // Allow for decimal pixel values
-    var upbio-sectionPosition = function(percentage, speed) {
+    var updatePosition = function(percentage, speed) {
       var value = (speed * (100 * (1 - percentage)));
       return self.options.round ? Math.round(value * 10) / 10 : value;
     };
 
 
     //
-    var upbio-section = function() {
+    var update = function() {
       if (setPosition() && pause === false) {
         animate();
       }
 
       // loop again
-      loop(upbio-section);
+      loop(update);
     };
 
     // Transform3d on parallax element
@@ -234,7 +233,7 @@
         var percentage = ((posY - blocks[i].top + screenY) / (blocks[i].height + screenY));
 
         // Subtracting initialize value, so element stays in same spot as HTML
-        var position = upbio-sectionPosition(percentage, blocks[i].speed) - blocks[i].base;
+        var position = updatePosition(percentage, blocks[i].speed) - blocks[i].base;
 
         var zindex = blocks[i].zindex;
 
@@ -260,3 +259,15 @@
   };
   return Rellax;
 }));
+© 2017 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Help
+Contact GitHub
+API
+Training
+Shop
+Blog
+About
