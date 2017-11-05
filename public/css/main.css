@@ -15,12 +15,12 @@ html, body {
   src:
 	local('LeagueSpartan Bold'),
 	local('LeagueSpartan-Bold'),
-	url('fonts/lovely_font.otf')
+	url('fonts/league-spartan-bold.otf')
 	format('opentype');
 src:
 	local('LeagueSpartan Bold'),
 	local('LeagueSpartan-Bold'),
-	url('fonts/lovely_font.ttf')
+	url('fonts/league-spartan-bold.ttf')
 	format('truetype');
 }
 
