@@ -172,7 +172,7 @@ section.backgroundbio {
 .sm-green {
   width: 60px;
   height: 60px;
-  background: #212121;
+  background: #222222;
   border-radius: 12px;
   margin-left: 80px;
   margin-top: 400px;
@@ -192,7 +192,7 @@ section.backgroundbio {
 .xs-green {
   width: 60px;
   height: 60px;
-  background: #212121;
+  background: #222222;
   border-radius: 12px;
   margin-left: -30px;
   margin-top: 400px;
@@ -202,7 +202,7 @@ section.backgroundbio {
 .md-green {
   width: 120px;
   height: 120px;
-  background: #212121;
+  background: #222222;
   border-radius: 12px;
   margin-left: -60px;
   margin-top: 10px;
@@ -242,7 +242,7 @@ section.backgroundbio {
 }
 
 .project {
-  background: #222;
+  background: #222222;
   padding: 60px 50px;
   border-radius: 12px;
   /* TODO: fix box shadow */
@@ -262,11 +262,11 @@ section.backgroundbio {
   margin-left: -80px;*/
   background: white;
   color: #222;
-  border: thin #222 solid;
+  border: thin #222222 solid;
 }
 
 .project:hover img {
-  border: thin #222 solid;
+  border: thin #222222 solid;
 }
 
 .project img {
@@ -305,7 +305,7 @@ section.backgroundbio {
 .bt-green {
   width: 60px;
   height: 60px;
-  background: #212121;
+  background: #222222;
   border-radius: 12px;
   margin-left: -30px;
   margin-top: 700px;
@@ -315,7 +315,7 @@ section.backgroundbio {
 .bt-purple {
   width: 80px;
   height: 80px;
-  background: #212121;
+  background: #222222;
   border-radius: 12px;
   margin-left: 57px;
   margin-top: 600px;
@@ -340,7 +340,7 @@ a.dam,
 a.dam:hover,
 a.dam:active,
 a.dam:visited {
-  color: #212121;
+  color: #222222;
 }
 
 
