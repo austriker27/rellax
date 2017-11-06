@@ -241,8 +241,15 @@ section.backgroundbio {
   color: #5000F1;
 }
 
+.clearfix {
+  float: none;
+}
+
 .project {
   background: white;
+  width: 40%;
+  /* TODO: get projects to fit 2 to a page */
+  float: right;
   padding: 90px 80px;
   border-radius: 12px;
   /* TODO: fix box shadow */
