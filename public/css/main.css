@@ -149,7 +149,7 @@ section.backgroundbio {
 }
 
 .absolute.above {
-  z-index: 1;
+  margin-top: 500px;
 }
 
 .absolute h2 {
