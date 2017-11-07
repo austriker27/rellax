@@ -14,9 +14,10 @@ html, body {
 .color-gradient {
   display: block;
   color: transparent;
-  background: -webkit-linear-gradient(red, yellow);
+  background: -webkit-linear-gradient(white, #c5c5c5);
   background-attachment: fixed;
   -webkit-background-clip: text;
+  /*-webkit-text-stroke: 0.2px black;*/
 }
 
 @font-face {
