@@ -3,7 +3,7 @@ html, body {
   padding: 0;
   font-family: 'spartanLeagueBold', sans-serif;
   text-rendering: optimizeLegibility;
-  -webkit-text-stroke: 0.2px black;
+  -webkit-text-stroke: 0.5px #42A0F4;
   color: white;
   overflow-x: hidden;
 }
@@ -224,14 +224,14 @@ section.backgroundbio {
   margin-top: 400px;
   font-size: 48px;
   font-weight: 600;
-  color: #42A0F4;
+  /*color: #42A0F4;*/
   z-index: 99;
 }
 
 .copy {
   z-index: 99;
   line-height: 2em;
-  color: #78F499;
+  /*color: #78F499;*/
 }
 
 .temp {
