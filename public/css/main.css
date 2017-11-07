@@ -3,7 +3,8 @@ html, body {
   padding: 0;
   font-family: 'spartanLeagueBold', sans-serif;
   text-rendering: optimizeLegibility;
-  color: #42A0F4;
+  -webkit-text-stroke: 0.2px black;
+  color: white;
   overflow-x: hidden;
 }
 
