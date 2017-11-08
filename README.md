@@ -12,7 +12,7 @@ A computer, live internet connection and probably a modern browser not named IE.
 
 ### Design Influence
 
-The site is heavily based on the parallax library, called rellax, developed by [dixon and moe](dixonandmoe.com/rellax).
+The site is heavily based rellax, a lightweight vanilla javascript parallax library, developed by [dixon and moe](dixonandmoe.com/rellax).
 
 ## Built With
 
