@@ -113,4 +113,4 @@ In the spirit of lightweight javascript, the build processes (thus far) is light
 4. Fix lint issues then use [Google Closure Compiler](https://closure-compiler.appspot.com/home) to minify
 5. 🍻
 
-<a target='_blank' rel='nofollow' href='https://app.codesponsor.io/link/EZvbHDYuZi3d3a4ywYAJuKJY/dixonandmoe/rellax'>  <img alt='Sponsor' width='888' height='68' src='https://app.codesponsor.io/embed/EZvbHDYuZi3d3a4ywYAJuKJY/dixonandmoe/rellax.svg' /></a>
+
